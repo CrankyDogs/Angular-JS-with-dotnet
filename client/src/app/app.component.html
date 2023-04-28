@@ -2,10 +2,6 @@
 <app-nav></app-nav>
 
 <div class="container" style="margin: 200px;">
-
-  <ul>
-    <li *ngFor="let user of users" >
-      {{user.id}} - {{user.name}}
-    </li>
-  </ul>
+  <!-- <app-home></app-home> -->
+  <router-outlet></router-outlet>
 </div>
